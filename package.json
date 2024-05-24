@@ -30,6 +30,11 @@
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "types": "src/types/index.d.ts",
+  "engines": {
+    "node": ">=20.x.x",
+    "yarn": ">=4.x",
+    "npm": "please-use-yarn"
+  },
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.12.0 || ^17.0.0 || ^18.2.0",
@@ -143,5 +148,6 @@
         }
       ]
     ]
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }
